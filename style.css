@@ -108,7 +108,11 @@ p{
     }
     #fashion-img{
         width: 200px;
-        margin: 50px 20px 20px 0px;
-        padding-left: 40px;
+        
+    }
+    #img-grid{
+        display: grid !important;
+        place-content: center !important;
+        gap: 20px;
     }
 }
