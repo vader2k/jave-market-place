@@ -8,30 +8,53 @@
     height: 50px;
     padding-left: 30px;
 }
-.carousel-item{
-    height: 900px;
-}
-.navbar-nav{
-    padding-left: 1000px;
-}
+
 a{
     font-weight: 500 !important;
-    padding: 50px !important;
-    color: rgba(0, 0, 0, 0.5) !important;
+    padding: 20px !important;
+    color: black !important;
     font-size: 1.2rem !important;
+}
+
+.carousel-caption{
+    bottom: 220px;
+}
+
+.carousel{ 
+   overflow: hidden !important; 
+}
+
+
+.carousel-item{
+    height: 100vh;
+    max-height:100%;
+    position: relative;
+    overflow: hidden !important;
+}
+
+.carousel-item:before{
+    content: '';
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 #caro-text-h{
     color: white;
     letter-spacing: 3px;
-    padding-bottom: 100px !important;
+    line-height: 3;
 }
+
 #caro-text-p{
     color: wheat;
     word-spacing: 10px !important;
     font-weight: 700;
-    padding-bottom: 150px !important;
     font-size: 1.1rem;
+    padding: 0px;
+    line-height: 1;    
 }
 .welcome{
     padding:50px;
@@ -53,8 +76,27 @@ span{
 #fashion-text span{
     color: #ffb300ef;
 }
+
+#navbar{
+    background-color: rgba(225, 225, 225, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.navbar-toggler:focus,
+.navbar-togler:hover,
+.navbar-toggler:active{
+    box-shadow: none;
+    outline:0px;
+    border: 0px;
+}
+
+.navbar-toggler{
+    outline: 0px;
+    border: 0px;
+}
+
 .nav-link:hover{
-    color: white !important;
+    color: #ffb300ef !important;
 }
 .pop{
     color: #990000;
@@ -80,6 +122,9 @@ p{
     padding-top: 90px !important;
 }
 @media only screen and (max-width:992px){
+    .carousel-caption{
+        bottom: 0px;
+    }
     .navbar-nav{
         padding: 0px !important;
         background-color: black !important;
@@ -91,6 +136,7 @@ p{
     }
     #caro-text-p,#caro-text-h{
         padding-bottom: 0px !important;
+        line-height: normal !important;
     }
     #caro-text-h{
         font-size: 1.1rem;
@@ -114,5 +160,11 @@ p{
         display: grid !important;
         place-content: center !important;
         gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 1290px){
+    .carousel-item{
+       height: 100%;
     }
 }
