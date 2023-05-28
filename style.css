@@ -97,7 +97,7 @@ span{
     padding: 15px;
 }
 #food-img{
-    height: 150px;
+    height: 100px;
     border-radius: 50px;
     margin: 20px;
     border-bottom: 1px solid #990000;
@@ -209,6 +209,13 @@ textarea{
     }
     #appliance-img{
         height: 150px !important;
+    }
+    #food-img{
+        height: 150px;
+        border-radius: 50px;
+        margin: 20px;
+        border-bottom: 1px solid #990000;
+        padding: 15px;
     }
 }
 
