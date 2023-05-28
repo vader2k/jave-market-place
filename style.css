@@ -207,6 +207,9 @@ textarea{
         place-content: center !important;
         gap: 20px;
     }
+    #appliance-img{
+        height: 150px !important;
+    }
 }
 
 @media only screen and (max-width: 1290px){
