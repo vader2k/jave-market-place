@@ -279,10 +279,9 @@ textarea{
         margin: 20px;
         padding: 15px;
     }
-    body p{
-        font-size: .9rem !important;
+    #fonts{
+        font-size: 15px !important;
     }
-}
 
 @media only screen and (max-width: 1290px){
     .carousel-item{
