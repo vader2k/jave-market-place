@@ -226,6 +226,7 @@ textarea{
     background-color: black !important;
     padding: 20px 40px !important;
 }
+
 @media only screen and (max-width:992px){
     .carousel-caption{
         bottom: 0px;
