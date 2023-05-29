@@ -99,9 +99,7 @@ a{
 h2,h6{
     background-color:rgba(245, 245, 220, 0.486) ;
 }
-section{
-    background-color: rgba(245, 245, 220, 0.486);
-}
+
 .reduce-again{
     font-size: 18px !important;
     font-weight: 400;
