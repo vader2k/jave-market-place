@@ -7,7 +7,7 @@
 }
 body{
     z-index: 1 !important;
-    background-color:beige;
+    background-color:rgba(245, 245, 220, 0.486);
 }
 body p{
     line-height: 30px;
