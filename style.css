@@ -1,8 +1,17 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Raleway:wght@100&display=swap');
 *{
     padding: 0;
     margin: 0;
 
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+body p{
+    line-height: 30px;
+}
+.navbar{
+    background-color: rgba(136, 125, 62, 0.589) !important;
 }
 #logo{
     height: 50px;
@@ -57,10 +66,19 @@ a{
     line-height: 1;    
 }
 .welcome{
-    padding:50px;
+    padding: 30px 10px;
     text-align: justify;
     border-top: 1px solid #ffb300ef;
     border-radius: 80px !important;
+}
+.reduce{
+    padding-top: 50px;
+}
+.reduce-again{
+    font-size: .8rem;
+    font-weight: 700;
+    line-height: 30px;
+    padding-bottom: 80px;
 }
 span{
     color: #990000;
@@ -158,14 +176,37 @@ p{
     padding: 20px;
 }
 input{
-    background-color: rgba(245, 245, 245, 0.678) !important;
+    background-color: whitesmoke !important;
     outline: hidden;
     border: none;
+    border-radius: 0px !important;
+    
 }
 textarea{
-    background-color: rgba(245, 245, 245, 0.678) !important;
+    background-color: whitesmoke !important;
     outline: hidden;
     border: none;
+    border-radius: 0px !important;
+}
+#last-icon{
+    height: 50px;
+    margin-top: 40px;
+}
+.contact-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#big{
+    font-size: 25px !important;
+    padding-bottom: 20px !important;
+
+}
+.contact-holder{
+    background-color: #ac2b2b9a !important;
+    padding: 20px 40px !important;
 }
 @media only screen and (max-width:992px){
     .carousel-caption{
@@ -216,6 +257,9 @@ textarea{
         margin: 20px;
         border-bottom: 1px solid #990000;
         padding: 15px;
+    }
+    body p{
+        font-size: .9rem !important;
     }
 }
 
