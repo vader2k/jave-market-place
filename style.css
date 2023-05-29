@@ -6,12 +6,14 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    z-index: 1;
 }
 body p{
     line-height: 30px;
 }
 .navbar{
     background-color: rgba(136, 125, 62, 0.589) !important;
+    z-index: 2;
 }
 #logo{
     height: 50px;
