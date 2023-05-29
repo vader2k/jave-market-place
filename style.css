@@ -5,7 +5,6 @@
 
 }
 body{
-    font-family: 'Poppins', sans-serif;
     z-index: 1 !important;
 }
 body p{
@@ -30,6 +29,18 @@ a{
 
 .carousel-caption{
     bottom: 220px;
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards;
+}
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .carousel{ 
